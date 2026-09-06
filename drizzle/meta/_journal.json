@@ -15,6 +15,13 @@
       "when": 1788718468939,
       "tag": "0001_even_millenium_guard",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1788721000000,
+      "tag": "0002_project_billing_type",
+      "breakpoints": true
     }
   ]
 }
