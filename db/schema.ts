@@ -6,6 +6,7 @@ export const projects = sqliteTable("projects", {
   client: text("client").notNull().default(""),
   address: text("address").notNull().default(""),
   contractValue: real("contract_value").notNull().default(0),
+  billingType: text("billing_type").notNull().default("undecided"),
   status: text("status").notNull().default("active"),
   progress: integer("progress").notNull().default(0),
   createdAt: text("created_at").notNull(),
